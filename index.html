@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WebSite</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-1.12.3.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function Find() {
+            var txt = $("#searchInput").val();
+            if ($('.about').text().indexOf(txt) > 0)
+                alert(true);
+            else {
+                alert(false);
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <header>
+        <a href="index.html" name="header"><img src="IMG/website.jpg" alt="header picture" /></a>
+    </header>
+
+    <nav>
+        <ul class="menu-bar">
+            <li><a href="" name="home" class="home menu-head"> <img src="IMG/house-logo-md.png" alt="Home" /></a></li>
+            <li>
+                <a href="formRock/formRock.html" class="menu-head"> Rock-n-rol</a>
+            </li>
+
+            <li>
+                <a href="formClassica/formClassica.html" class="menu-head"> Alternative Rock </a>
+            </li>
+
+            <li>
+                <a href="formHard/formHard.html" class="menu-head"> Hard Rock </a>
+            </li>
+
+            <li>
+                <a href="formMetal/formMetal.html" class="menu-head"> Metal Rock</a>
+            </li>
+            <li>
+                <a href="" class="menu-head"> Death metal </a>
+            </li>
+        </ul>
+
+        <form action="" method="get">
+            <input id="searchInput" type="search" placeholder="Search..." />
+            <input  id="search" onclick="Find()" type="submit" value="Search!" />
+
+        </form>
+
+    </nav>
+
+    <aside>
+        <details open>
+            <summary> Kind of music</summary>
+            <ul>
+                <li class="list"><a href="#rock" title="About Rock"> Rock-n-roll </a></li>
+                <li class="list"><a href="#alternative" title="About Classical"> Alternative Rock</a></li>
+                <li class="list"><a href="#hard" title="About Blues"> Hard Rock </a></li>
+                <li class="list"><a href="#metal" title="About Jazz"> Metal Rock </a></li>
+                <li class="list"><a href="#death" title="About Hip-Hop & Rap"> Death metal </a></li>
+            </ul>
+        </details>
+    </aside>
+
+    <main>
+        <article id="rock">
+            <header> <h1> Rock-n-roll Music </h1> </header>
+            <p class="about">
+                Rock and roll (often written as rock & roll or rock 'n' roll) is a genre of popular music that
+                originated and evolved in the United States during the late 1940s and early 1950s, from a
+                combination of African-American genres such as blues, boogie-woogie, jump blues, jazz, and gospel
+                music, together with Western swing and country music. Though elements of rock and roll can
+                be heard in blues records from the 1920s and in country records of the 1930s, the genre did
+                not acquire its name until the 1950s.
+                "Rock and roll" can refer either to the first wave of music that originated in the US in the
+                1950s prior to its development into "rock music", or more broadly to rock music and culture.
+                For the purpose of differentiation, this article deals with the first definition.
+                In the earliest rock and roll styles of the late 1940s and early 1950s, either the piano or
+                saxophone was often the lead instrument, but these were generally replaced or supplemented by
+                guitar in the middle to late 1950s. The beat is essentially a blues rhythm with an accentuated
+                backbeat, the latter almost always provided by a snare drum. Classic rock and roll is usually
+                played with one or two electric guitars (one lead, one rhythm), a string bass or (after the mid-1950s
+                ) an electric bass guitar, and a drum kit.
+                Beyond simply a musical style, rock and roll, as seen in movies and on television, influenced lifestyles,
+                fashion, attitudes, and language. In addition, rock and roll may have contributed to the civil rights
+                movement because both African-American and white American teens enjoyed the music. It went on to
+                spawn various genres, often without the initially characteristic backbeat, that are now more commonly
+                called simply "rock music" or "rock".
+            </p>
+            <footer>
+                <a href="https://en.wikipedia.org/wiki/Rock_and_roll" title="Wikipedia" target="_blank">
+                    For more information about this kind of music click on the link
+                </a>
+            </footer>
+        </article>
+
+        <article id="alternative">
+            <header> <h1> Alternative Rock </h1> </header>
+            <p class="about">
+                Alternative rock (also called alternative music, alt-rock or simply alternative) is a genre of
+                rock music that emerged from the independent music underground of the 1980s and became widely
+                popular in the 1990s and 2000s. In this instance, the word "alternative" refers to the genre's
+                distinction from mainstream rock music. The term's original meaning was broader, referring to
+                a generation of musicians unified by their collective debt to either the musical style or simply
+                the independent, D.I.Y. ethos of punk rock, which in the late 1970s laid the groundwork for
+                alternative music. At times, "alternative" has been used as a catch-all description for music
+                from underground rock artists that receives mainstream recognition, or for any music, whether rock
+                or not, that is seen to be descended from punk rock (including some examples of punk itself, as
+                well as new wave, and post-punk).
+            </p>
+            <footer>
+                <a href="https://en.wikipedia.org/wiki/Alternative_rock" title="Wikipedia" target="_blank">
+                    For more information about this kind of music click on the link
+                </a>
+            </footer>
+        </article>
+
+        <article id="hard">
+            <header> <h1> Hard Rock </h1> </header>
+            <p class="about">
+                Hard rock or heavy rock is a loosely defined subgenre of rock music that began in the mid-1960s,
+                with the garage, psychedelic and blues rock movements. It is typified by a heavy use of aggressive
+                vocals, distorted electric guitars, bass guitar, drums, and often accompanied with pianos and keyboards.
+                Hard rock developed into a major form of popular music in the 1970s, with bands such as Led Zeppelin,
+                The Who, Deep Purple, Aerosmith, AC/DC and Van Halen. During the 1980s, some hard rock bands moved
+                away from their hard rock roots and more towards pop rock, while others began to return to a
+                hard rock sound. Established bands made a comeback in the mid-1980s and it reached a commercial
+                peak in the 1980s, with glam metal bands like Bon Jovi and Def Leppard and the rawer sounds of
+                Guns N' Roses, which followed up with great success in the later part of that decade. Hard rock
+                began losing popularity with the commercial success of grunge and later Britpop in the 1990s.
+                Despite this, many post-grunge bands adopted a hard rock sound and in the 2000s there came a
+                renewed interest in established bands, attempts at a revival, and new hard rock bands that emerged
+                from the garage rock and post-punk revival scenes. In the 2000s, only a few hard rock bands from the
+                1970s and 1980s managed to sustain highly successful recording careers.
+            </p>
+            <footer>
+                <a href="https://en.wikipedia.org/wiki/Hard_rock" title="Wikipedia" target="_blank">
+                    For more information about this kind of music click on the link
+                </a>
+            </footer>
+        </article>
+
+        <article id="metal">
+            <header> <h1> Metal Rock </h1> </header>
+            <p class="about">
+                Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and
+                early 1970s, largely in the United Kingdom and the United States. With roots in blues rock
+                and psychedelic rock, the bands that created heavy metal developed a thick, massive sound,
+                characterized by highly amplified distortion, extended guitar solos, emphatic beats, and overall
+                loudness. Heavy metal lyrics and performance styles are sometimes associated with masculinity,
+                aggression, and machismo.
+                The first heavy metal bands such as Led Zeppelin, Black Sabbath and Deep Purple attracted large
+                audiences, though they were often derided by critics, a status common throughout the history of
+                the genre. During the mid-1970s, Judas Priest helped spur the genre's evolution by discarding
+                much of its blues influence; Motörhead introduced a punk rock sensibility and an increasing
+                emphasis on speed. Beginning in the late 1970s, bands in the New Wave of British Heavy Metal such
+                as Iron Maiden and Saxon followed in a similar vein. Before the end of the decade, heavy metal fans
+                became known as "metalheads" or "headbangers".
+            </p>
+            <footer>
+                <a href="https://en.wikipedia.org/wiki/Heavy_metal_music" title="Wikipedia" target="_blank">
+                    For more information about this kind of music click on the link
+                </a>
+            </footer>
+        </article>
+
+        <article id="death">
+            <header> <h1> Death metal </h1> </header>
+            <p class="about">
+                Death metal is an extreme subgenre of heavy metal music. It typically employs heavily distorted
+                and low-tuned guitars, played with techniques such as palm muting and tremolo picking, deep growling
+                vocals and screams, aggressive, powerful drumming featuring double kick or blast beat techniques,
+                minor keys or atonality, abrupt tempo, key, and time signature changes and chromatic chord progressions
+                . The lyrical themes of death metal may invoke slasher film-stylized violence, religion
+                (sometimes Satanism), occultism, Lovecraftian horror, nature, mysticism, mythology, philosophy,
+                science fiction, and politics, and they may describe extreme acts, including mutilation,
+                dissection, torture, rape, cannibalism, and necrophilia.
+                Building from the musical structure of thrash metal and early black metal, death metal emerged
+                during the mid-1980s. Bands such as Venom, Celtic Frost, Slayer, and Kreator were important
+                influences on the genre's creation. Possessed] and Death, along with bands such
+                as Obituary, Autopsy and Morbid Angel, are often considered pioneers of the genre.
+                In the late 1980s and early 1990s, death metal gained more media attention as popular genre niche
+                record labels like Combat, Earache, and Roadrunner, began to sign death metal bands at a rapid rate.]
+            </p>
+            <footer>
+                <a href="https://en.wikipedia.org/wiki/Death_metal" title="Wikipedia" target="_blank">
+                    For more information about this kind of music click on the link
+                </a>
+            </footer>
+        </article>
+
+    </main>
+
+    <footer id="footer">
+        <p>All rigths are reserved</p>
+        <p>©2016 Haik Sharyan  </p>
+        <address> <a href="mailto:haik.sharyan@mail.ru">haik.sharyan@mail.ru</a></address>
+    </footer>
+
+</body>
+</html>
